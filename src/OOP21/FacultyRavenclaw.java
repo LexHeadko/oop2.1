@@ -43,9 +43,9 @@ public class FacultyRavenclaw extends HogwartsSchool {
     }
     public void printCompare(FacultyRavenclaw facultyRavenclaw) {
         if (this.compare(facultyRavenclaw) == true) {
-            System.out.println(this.getName() + " лучший Когтевранец, чем " + facultyRavenclaw.getName());
+            System.out.println(this.getName() + " лучший Когтевранец, чем " + facultyRavenclaw.getName() + "!");
         } else {
-            System.out.println(facultyRavenclaw.getName() + " лучший Когтевранец, чем " + this.getName());
+            System.out.println(facultyRavenclaw.getName() + " лучший Когтевранец, чем " + this.getName() + "!");
         }
     }
     @Override
