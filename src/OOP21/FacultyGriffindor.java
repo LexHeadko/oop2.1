@@ -46,9 +46,9 @@ public class FacultyGriffindor extends HogwartsSchool {
 
     public void printCompare(FacultyGriffindor facultyGriffindor) {
         if (this.compare(facultyGriffindor) == true) {
-            System.out.println(this.getName() + " лучший Гриффиндорец, чем " + facultyGriffindor.getName());
+            System.out.println(this.getName() + " лучший Гриффиндорец, чем " + facultyGriffindor.getName() + "!");
         } else {
-            System.out.println(facultyGriffindor.getName() + " лучший Гриффиндорец, чем " + this.getName());
+            System.out.println(facultyGriffindor.getName() + " лучший Гриффиндорец, чем " + this.getName() + "!");
         }
     }
     @Override

@@ -96,5 +96,7 @@ public class Main {
         hermioneGranger.printCompare(dracoMalfoy);
         dracoMalfoy.printCompare(harryPotter);
         cedricDiggory.printCompare(justinFinchFletchley);
+        cedricDiggory.printCompare(ronWeasley);
+        ronWeasley.printCompare(padmaPatil);
     }
 }

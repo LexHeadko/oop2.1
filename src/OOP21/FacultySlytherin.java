@@ -67,9 +67,9 @@ public class FacultySlytherin extends HogwartsSchool {
     }
     public void printCompare(FacultySlytherin facultySlytherin) {
         if (this.compare(facultySlytherin) == true) {
-            System.out.println(this.getName() + " лучший Когтевранец, чем " + facultySlytherin.getName());
+            System.out.println(this.getName() + " лучший Когтевранец, чем " + facultySlytherin.getName() + "!");
         } else {
-            System.out.println(facultySlytherin.getName() + " лучший Когтевранец, чем " + this.getName());
+            System.out.println(facultySlytherin.getName() + " лучший Когтевранец, чем " + this.getName() + "!");
         }
     }
     @Override

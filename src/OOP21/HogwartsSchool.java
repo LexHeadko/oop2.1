@@ -41,9 +41,9 @@ public abstract class HogwartsSchool {
     }
     public void printCompare(HogwartsSchool hogwartsSchool) {
         if (this.compare(hogwartsSchool) == true) {
-            System.out.println(this.getName() + " обладает большей мощностью магии, чем " + hogwartsSchool.getName());
+            System.out.println(this.getName() + " обладает большей мощностью магии, чем " + hogwartsSchool.getName() + "!");
         } else {
-            System.out.println(hogwartsSchool.getName() + " обладает большей мощностью магии, чем " + this.getName());
+            System.out.println(hogwartsSchool.getName() + " обладает большей мощностью магии, чем " + this.getName() + "!");
         }
     }
     @Override

@@ -43,9 +43,9 @@ public class FacultyHufflepuff extends HogwartsSchool {
     }
     public void printCompare(FacultyHufflepuff facultyHufflepuff) {
         if (this.compare(facultyHufflepuff) == true) {
-            System.out.println(this.getName() + " лучший Пуффендуец, чем " + facultyHufflepuff.getName());
+            System.out.println(this.getName() + " лучший Пуффендуец, чем " + facultyHufflepuff.getName() + "!");
         } else {
-            System.out.println(facultyHufflepuff.getName() + " лучший Пуффендуец, чем " + this.getName());
+            System.out.println(facultyHufflepuff.getName() + " лучший Пуффендуец, чем " + this.getName() + "!");
         }
     }
     @Override
